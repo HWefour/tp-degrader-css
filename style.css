@@ -1,0 +1,33 @@
+div,
+p {
+    height: 200px;
+    width: 200px;
+    border-color: black;
+    border: 2px solid;
+    
+}
+
+#div1 {
+    background-image:linear-gradient(to bottom left , blue  , red, green );
+    border-spacing: 20px;
+}
+
+#div2 {
+    background-image: linear-gradient(to bottom left ,yellow , purple 25%);
+    
+}
+
+p {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.5));
+    
+}
+
+#div3 {
+    background-image: radial-gradient(circle at center , lightblue, pink);
+    
+}
+
+#div4 {
+    background-image: repeating-radial-gradient(black , white 10px);
+    
+}
